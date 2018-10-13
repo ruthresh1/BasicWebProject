@@ -1,0 +1,60 @@
+<!Doctype HTML>
+<HTML>
+<Head>
+<Title>Info Page</Title>
+<style>
+#rbc {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	font-size: 25px;
+}
+#lbc {
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+	font-size: 25px;
+}
+#ani {
+	position: relative;
+	background: black;
+	height: 20px;
+	width: 20px;
+	border-radius: 50px;
+	-webkit-animation: anim1 25s infinite;
+}
+#main {
+	font-size: 20px;
+	color: #151B54;
+}
+@-webkit-keyframes anim1 {
+	0% {
+		top: 80px;
+		left: 310px;
+		border-radius: 50px;
+	}
+	50% {
+		top: 80px;
+		left: 1200px;
+		border-radius: 0px;
+	}
+	100% {
+		top: 100px;
+		left: 310px;
+	}
+}
+</style>
+</Head>
+<Body>
+<p align="center">
+<img src="main1.png" height="450px" width="1200px" />
+</p>
+<p id="main">This is a small attempt at helping students get easier and fast access to specific topics
+on aptitude, verbal, logical and technical Question and Answers (Q&A).
+This would provide links to various websites with respect to particular topics.<br/>
+Check out the Gallery and the About link for more Information...</p>
+<a id="lbc" href="About.html">About</a>
+<a id="rbc" href="Gallery.html">Gallery</a>
+<p id="ani"></p>
+</Body>
+</html>

@@ -1,0 +1,51 @@
+<!Doctype HTML>
+<HTML>
+<Head>
+<Title>Info Page</Title>
+<style>
+#lbc {
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+	font-size: 25px;
+}
+table {
+	font-size: 25px;
+	color: darkblue;
+}
+</style>
+</Head>
+<Body>
+<Table border bordercolor="green" align="center">
+ <tr>
+  <td><a href="i.png" target="imgf">Display Image</a>
+  <td><a href="a.mp3" target="audf">Play Audio</a>
+ </tr>
+ <tr>
+   <td><iframe name="imgf" frameborder="0" height="340px" scrolling ="no" width="840px" ></iframe></td>
+   <td><iframe name="audf" frameborder="0"></iframe></td>
+ </tr>
+ <tr>
+  <td><iframe name="vidf" frameborder="0" height="310px" width="840px"></iframe></td>
+  <td>
+    <table align="center">
+	<tr><td>
+	<a href="v.mp4" target="vidf">Play video</td>
+	</tr>
+	<tr></tr>
+	<tr><th colspan="2">
+	Downloads</th>
+	</tr>
+	<tr>
+	<td>Audio</td>
+	<td><a href="a.mp3" download> Download</a></td></tr>
+	<tr>
+	<td>Image</td>
+	<td><a href="i.png" download> Download</a></td></tr>
+	<tr>
+	<td>Video</td>
+	<td><a href="v.mp4" download> Download</a></td></tr></table>
+ </td></tr> </table>
+<a id="lbc" href="Info.html" target="_parent">Back</a>
+</Body>
+</HTML>

@@ -1,0 +1,78 @@
+<!Doctype HTML>
+<HTML>
+<Head>
+<Title>Home Page</Title>
+<style>
+h1{
+  font-size: 75px;
+  color: blue;
+  font-family: Comic Sans MS;  
+  background-color: lightblue;
+}
+table {
+	color: brown;
+	font-size: 21px;
+	background-color: lightyellow;
+	font-family: Courier New;
+}
+p {
+  position: relative;
+  right: 7500px;
+  background: white;
+  border-radius:0px;
+  height: 50px;
+  width: 50px;
+  -webkit-animation: anim1 5s;
+}
+@-webkit-keyframes anim1 {
+	from {
+	  background: white;
+	  border-radius:500px;
+	  height:350px;
+	  width: 350px;
+	}
+	to {
+	  background: silver;
+	  border-radius:0px;
+	  height: 50px;
+	  width: 50px;
+	}
+}
+</style>
+</Head>
+<Body>
+<h1 align="center">Welcome to Aptitude Trainer</h1>
+<table align="center">
+<tr>
+<th colspan="2"> 
+<h3>Sign up</h3>
+</th></tr>
+<form action="Info.html">
+<tr>
+<td>First Name:</td>
+<td><input type="text" autofocus /></td>
+</tr>
+<tr>
+<td>Last Name:</td>
+<td><input type="text" placeholder="optional" /></td>
+</tr>
+<tr>
+<td>Age:</td>
+<td><input type="number" min="13" placeholder="12+" /></td>
+</tr>
+<tr>
+<td>Gender:</td><td> male<input type="radio" name="g" />
+		female<input type="radio" name="g" /></td>
+</tr>
+<tr><td>Interest:</td>
+<td>
+	<input type="checkbox" name="b" />aptitude<br/>
+	<input type="checkbox" name="b" />verbal<br/>
+	<input type="checkbox" name="b" />logical<br/>
+	<input type="checkbox" name="b" />technical<br/>
+</td>
+<tr><td><input type="submit" style="width:100px; height:35px;" /></td></tr>
+</form>
+<p></p>
+</Body>
+</HTML>
